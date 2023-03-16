@@ -38,6 +38,9 @@
 同一kubernetes集群可以部署多个asm实例，数据互不影响。所以你可以区分正式环境和线上环境，也可以对不同类型的资产分别部署实例（比如国外资产和国内资产）
 </details>
 
+架构如下：
+![](https://user-images.githubusercontent.com/1846319/225553724-94c34e58-9dca-4184-afbf-76b8b88b04c7.png)
+
 举几个使用场景的例子：
 
 <table>
