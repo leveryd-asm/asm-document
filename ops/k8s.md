@@ -64,11 +64,17 @@ asm实例安装完成后，你就可以通过浏览器进入到asm控制台上�
 
 * 找到ingress的nodeport
 
-  如果你安装了kubesphere，就可以执行如下命令，说明集群外可以访问 `节点ip:32115`
+  如果你安装了kubesphere，就可以执行如下命令，命令结果说明集群外可以访问 `节点ip:32115`
   ```
   [root@192 ~]# kubectl get service -A|grep kubesphere-router-kubesphere-system
   kubesphere-controls-system     kubesphere-router-kubesphere-system           NodePort    10.233.44.102   <none>        80:32115/TCP,443:31474/TCP     95d
   ```
+
+  或者在`kubesphere`控制台上找到`console` ingress访问地址，如下图所示
+
+  ![](https://user-images.githubusercontent.com/1846319/209645921-d845c719-4f31-4e88-ae7c-c4326019b90a.png)
+  ![](https://user-images.githubusercontent.com/1846319/209645971-34b5443c-bcd3-46a2-84a8-fa2378cbc9df.png)
+
 
 * 绑定域名到节点ip
 

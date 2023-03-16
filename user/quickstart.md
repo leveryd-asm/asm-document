@@ -22,6 +22,8 @@
 
   ![](https://user-images.githubusercontent.com/1846319/225563172-53b313ec-e7a1-4fe5-acac-40ec664888de.png)
 
+  或者浏览器输入 `http://asm控制台地址/argo` 地址，直接进入到argo-ui界面
+
 # 访问kibana
 
 通过kibana，你可以查看存入到elasticsearch中的各类数据，包括域名、端口、ip、web服务、爬虫数据等等信息
