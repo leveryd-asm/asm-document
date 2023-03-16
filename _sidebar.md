@@ -1,7 +1,8 @@
 * [简介](README.md)
 * 用户文档
-  * [控制台](user/console.md)
-  * [argo ui](user/argo-ui.md)
+  * [快速开始](user/quickstart.md)
+  * [漏洞运营](user/vuln.md)
+  * [argo-ui](user/argo-ui.md)
   * [代理](user/proxy.md)
   * [kibana](user/kibana.md)
 * 开发者文档
