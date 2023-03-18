@@ -41,8 +41,9 @@ cd asm/
 
 第一次安装时，需要执行`helm dependency update`下载依赖。
 
-执行如下命令会在asm命名空间中安装本项目
+执行如下命令会创建asm命名空间，并在asm命名空间中安装本项目
 ```
+kubectl create namespace asm
 helm -n asm template ./ | kubectl apply -n asm -f -
 ```
 
@@ -62,11 +63,19 @@ kubectl get pod -n asm
 
 asm实例安装完成后，你就可以通过浏览器进入到asm控制台上管理资产、管理任务、运营报警
 
+* 创建网关(ingress)
+
+  如果你安装了kubesphere，就可以在kubesphere控制台上创建一个网关
+
+  ![](https://user-images.githubusercontent.com/1846319/226091298-d13f5e7e-6d61-4648-bcb3-fdec2da96e92.png)
+
 * 找到ingress的nodeport
 
   如果你安装了kubesphere，就可以执行如下命令，命令结果说明集群外可以访问 `节点ip:32115`
   ```
-  [root@192 ~]# kubectl get service -A|grep kubesphere-router-kubesphere-system
+  [root@192 ~]# kubectl get pod -n kubesphere-controls-system | grep -i kubesphere-router-kubesphere-system
+  kubesphere-router-kubesphere-system-5cfc84c77c-jh42b   1/1     Running   15         24d
+  [root@192 ~]# kubectl get service -A | grep kubesphere-router-kubesphere-system
   kubesphere-controls-system     kubesphere-router-kubesphere-system           NodePort    10.233.44.102   <none>        80:32115/TCP,443:31474/TCP     95d
   ```
 
@@ -82,7 +91,7 @@ asm实例安装完成后，你就可以通过浏览器进入到asm控制台上�
 
   mac下的host文件路径在`/etc/hosts`，windows下的host文件路径在`C:\Windows\System32\drivers\etc\hosts`
 
-  > 你可以用 [SwitchHosts](https://github.com/oldj/SwitchHosts) 管理hosts文件
+  > 你也可以用 [SwitchHosts](https://github.com/oldj/SwitchHosts) 管理hosts文件
 
 * 浏览器上访问asm控制台
 
