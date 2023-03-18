@@ -8,8 +8,8 @@
 
 > 你可以从 https://github.com/leveryd-asm/asm/blob/master/templates/nuclei-template-update/util.yaml 看到数据源
 
-# 手动更新
-如果你想要手动更新poc，比如添加自己的私人poc，就需要挂载pv到容器目录后操作，具体步骤如下。
+# 添加自定义poc
+如果你想添加自己的私人poc，就需要挂载pv到容器目录后更新，具体步骤如下。
 
 第一步：在argo-ui中启动容器
 
