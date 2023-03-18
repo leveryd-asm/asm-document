@@ -15,3 +15,4 @@
     * [kubernetes环境中安装](ops/k8s.md)
     * [minikube环境安装](ops/minikube.md)
   * [卸载](ops/uninstall.md)
+  * [faq](ops/faq.md)

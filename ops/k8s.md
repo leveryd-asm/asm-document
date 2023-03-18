@@ -47,9 +47,9 @@ kubectl create namespace asm
 helm -n asm template ./ | kubectl apply -n asm -f -
 ```
 
-你也可以向helm传递参数来修改安装的配置，如下命令会使用`manage.com`作为域名访问控制台
+你也可以向helm传递参数来修改安装的配置，如下命令会使用`asm-manage.com`作为域名访问控制台
 ```
-helm -n asm template ./ --set console_domain=manage.com  | kubectl apply -n asm -f -
+helm -n asm template ./ --set console_domain=asm-manage.com  | kubectl apply -n asm -f -
 ```
 
 # 步骤4：验证安装是否成功
