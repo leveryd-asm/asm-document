@@ -30,6 +30,6 @@
 
 * 怎么访问kibana？
 
-  绑定hosts后，浏览器中输入 `http://kibana.console.com:32115/` 来访问kibana
+  绑定`kibana.console.com`host后，浏览器中输入 `http://kibana.console.com:32115/` 来访问kibana
 
 # 访问xray-reverse管理页面
