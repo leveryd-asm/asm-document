@@ -16,4 +16,5 @@
     * [kubernetes环境中安装](ops/k8s)
     * [minikube环境安装](ops/minikube)
   * [卸载](ops/uninstall)
+  * [elastcsearch](ops/elasticsearch)
   * [faq](ops/faq)
