@@ -2,6 +2,7 @@
 
 # 索引变成了只读怎么办？
 kibana查询时，报错如下：
+
 <img src="https://user-images.githubusercontent.com/1846319/226222286-794fc4a8-0a46-4a5d-b5b6-6151998431eb.png" width="400px">
 
 ```
