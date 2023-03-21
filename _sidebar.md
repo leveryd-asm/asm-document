@@ -4,6 +4,8 @@
   * [漏洞运营](user/vuln)
   * [argo-ui](user/argo-ui)
   * [更新poc](user/nuclei/update-poc)
+  * [应用](user/app/README)
+    * [fofa-client](user/app/asset-fofa)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)
