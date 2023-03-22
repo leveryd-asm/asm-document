@@ -6,6 +6,7 @@
   * [更新poc](user/nuclei/update-poc)
   * [应用](user/app/README)
     * [fofa-client](user/app/asset-fofa)
+  * [工作流中查询数据](user/query)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)
