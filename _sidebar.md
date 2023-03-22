@@ -12,6 +12,9 @@
   * 编写工作流模板
     * [怎么编写工作流模板](developer/workflow-template/how-to-write)
     * [规范](developer/workflow-template/spec)
+  * elasticsearch
+    * 字段
+      * [subdomain](developer/elasticsearch/subdomain)
   * [faq](developer/faq)
 * 运维文档
   * 安装
@@ -20,3 +23,4 @@
   * [卸载](ops/uninstall)
   * [elastcsearch](ops/elasticsearch)
   * [faq](ops/faq)
+* [赞助本项目](donate)
