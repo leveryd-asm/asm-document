@@ -21,7 +21,7 @@ port>=8000 AND port<=9000   port在8000-9000之间，注意AND不能小写，也
 
 <img width="330" alt="image" src="https://user-images.githubusercontent.com/1846319/226902737-78407066-d1cc-4185-a32e-10ef7be4f0d1.png">
 
-响应中所有的字段都支持从api中查询
+响应中所有的字段都可以作为api的查询条件
 
 # 从db查询
 
