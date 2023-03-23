@@ -13,3 +13,5 @@
 安装后，argo-ui上就可以使用fofa应用
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/1846319/226571625-0f2ed1ad-e220-4f5c-8fe7-fcd4f2a69dc8.png">
+
+> 如果在安装asm实例时可以配置fofa，就不需要在使用应用时重复输入fofa key和email

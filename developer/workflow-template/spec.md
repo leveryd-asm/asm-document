@@ -13,5 +13,5 @@
 * 资产发现、获取资产 等任务流在 argo-workflow-template-asset 目录
 * 漏洞扫描任务流在 argo-workflow-template 目录
 
-* 资产发现类的文件名以`probe-`开头,模板名称以`probe-asset-`开头
-* 获取资产类的文件名以`get-`开头,模板名称以`get-asset-`开头
+* 主动探测资产类的文件名以`probe-`开头,模板名称以`probe-asset-`开头
+* 查询资产类、被动发现资产类的文件名以`get-`开头,模板名称以`get-asset-`开头。
