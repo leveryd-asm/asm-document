@@ -7,15 +7,16 @@
   * [应用](user/app/README)
     * [fofa-client](user/app/asset-fofa)
   * [工作流中查询数据](user/query)
+  * [为资产标记组织归属](user/org-asset-map)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)
   * 编写工作流模板
     * [怎么编写工作流模板](developer/workflow-template/how-to-write)
     * [规范](developer/workflow-template/spec)
-  * elasticsearch
-    * 字段
-      * [subdomain](developer/elasticsearch/subdomain)
+  * [elasticsearch](developer/elasticsearch/README)
+    * [域名索引](developer/elasticsearch/subdomain)
+    * [端口索引](developer/elasticsearch/port)
   * [faq](developer/faq)
 * 运维文档
   * 安装
