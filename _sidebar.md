@@ -8,7 +8,9 @@
     * [fofa-client](user/app/asset-fofa)
   * [工作流中查询数据](user/query)
   * [为资产标记组织归属](user/org-asset-map)
-  * [基于代理的漏扫](user/proxy-scan)
+  * [用户场景](user/use-case/README)
+    * [基于fofa漏洞挖掘](user/use-case/fofa)
+    * [基于漏扫代理挖掘漏洞](user/use-case/proxy-scan)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)

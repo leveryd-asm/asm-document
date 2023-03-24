@@ -6,7 +6,7 @@
 * https://github.com/projectdiscovery/fuzzing-templates
 * https://github.com/projectdiscovery/nuclei-templates
 
-> 你可以从 https://github.com/leveryd-asm/asm/blob/master/templates/nuclei-template-update/util.yaml 看到数据源
+> 你可以从 [这里](https://github.com/leveryd-asm/asm/blob/master/templates/nuclei-template-update/util.yaml) 看到数据源
 
 # 添加自定义poc
 如果你想添加自己的私人poc，就需要挂载pv到容器目录后更新，具体步骤如下。
