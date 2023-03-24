@@ -8,6 +8,7 @@
     * [fofa-client](user/app/asset-fofa)
   * [工作流中查询数据](user/query)
   * [为资产标记组织归属](user/org-asset-map)
+  * [基于代理的漏扫](user/proxy-scan)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)
@@ -26,3 +27,4 @@
   * [elastcsearch](ops/elasticsearch)
   * [faq](ops/faq)
 * [赞助本项目](donate)
+* [反馈和交流](discuss)

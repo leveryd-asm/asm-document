@@ -20,6 +20,8 @@ last_update_time:[2023-03-23 TO 2023-03-25]           23号到25号有过更新
 status-code:200 AND content-type:"html" AND words:>10 提供web服务的网站
 ```
 
+> 语法参考 [elasticsearch文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)
+
 # 从console-api查询
 
 <img width="330" alt="image" src="https://user-images.githubusercontent.com/1846319/226902737-78407066-d1cc-4185-a32e-10ef7be4f0d1.png">
