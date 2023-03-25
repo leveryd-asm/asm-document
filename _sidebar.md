@@ -11,6 +11,7 @@
   * [用户场景](user/use-case/README)
     * [基于fofa漏洞挖掘](user/use-case/fofa)
     * [基于漏扫代理挖掘漏洞](user/use-case/proxy-scan)
+  * [定时任务](user/cron-job/README)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)
