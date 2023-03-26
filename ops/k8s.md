@@ -2,6 +2,8 @@
 
 本文档帮助你安装kubernetes和asm。
 
+> 目前asm服务大多没有实现身份认证，如果通过外网访问服务，建议做ip访问限制。
+
 # 步骤1：准备kubernetes环境
 * 硬件推荐配置
 
@@ -19,7 +21,7 @@
 
   kubesphere 可以用来管理k8s集群，并且提供了`ingress controller`。
 
-  你可以按照如下命令安装`v3.3.1`版本
+  你可以按照如下命令安装`v3.3.1`版本。安装前，你需要有默认StorageClass，为什么以及怎么创建默认StorageClass可以见[这个issue](https://github.com/leveryd-asm/asm/issues/38)
   ```
   kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.1/kubesphere-installer.yaml
   kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.1/cluster-configuration.yaml
