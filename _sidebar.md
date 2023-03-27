@@ -11,21 +11,22 @@
   * [用户场景](user/use-case/README)
     * [基于fofa漏洞挖掘](user/use-case/fofa)
     * [基于漏扫代理挖掘漏洞](user/use-case/proxy-scan)
+    * [探测子域名](user/subdomain)
   * [定时任务](user/cron-job/README)
 * 开发者文档
   * [架构](developer/架构)
   * [控制台](developer/console)
   * 编写工作流模板
-    * [怎么编写工作流模板](developer/workflow-template/how-to-write)
-    * [规范](developer/workflow-template/spec)
+    * [怎么编写工作流](developer/workflow-template/how-to-write)
+    * [编写规范](developer/workflow-template/spec)
   * [elasticsearch](developer/elasticsearch/README)
     * [域名索引](developer/elasticsearch/subdomain)
     * [端口索引](developer/elasticsearch/port)
   * [faq](developer/faq)
 * 运维文档
   * 安装
-    * [在主机上从零安装kubernetes和asm实例](ops/k8s)
-    * [minikube环境安装](ops/minikube)
+    * [从零安装kubernetes和asm实例](ops/k8s)
+    * [minikube环境安装asm实例](ops/minikube)
   * [卸载](ops/uninstall)
   * [水平扩容](ops/scale.md)
   * [elastcsearch](ops/elasticsearch)
