@@ -24,9 +24,10 @@
   * [faq](developer/faq)
 * 运维文档
   * 安装
-    * [kubernetes环境中安装](ops/k8s)
+    * [在主机上从零安装kubernetes和asm实例](ops/k8s)
     * [minikube环境安装](ops/minikube)
   * [卸载](ops/uninstall)
+  * [水平扩容](ops/scale.md)
   * [elastcsearch](ops/elasticsearch)
   * [faq](ops/faq)
 * [赞助本项目](donate)
