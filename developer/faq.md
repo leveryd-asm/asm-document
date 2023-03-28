@@ -1,4 +1,4 @@
-# 
+#
 # 当想集成的工具没有容器版本怎么办？
 
 比如 [xray](https://github.com/chaitin/xray/)、[fofax](https://github.com/xiecat/fofax) 等都没有镜像版本
@@ -19,5 +19,5 @@ alias subfinder='docker run -ti --rm --entrypoint sh projectdiscovery/subfinder:
 alias naabu='docker run -ti --rm --entrypoint sh projectdiscovery/naabu:v2.1.1'
 alias jq='docker run -ti --rm --entrypoint bash docker.io/imega/jq:1.6'
 alias nuclei='docker run -ti --rm --entrypoint sh projectdiscovery/nuclei:v2.8.3'
-alias logstash='docker run --entrypoint sh -ti --rm -v /tmp/:/tmp logstash:7.17.3'
+alias logstash='docker run --entrypoint bash -ti --rm -v /tmp/:/tmp logstash:7.17.3'
 ```

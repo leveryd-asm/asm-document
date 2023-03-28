@@ -11,7 +11,7 @@
   * [用户场景](user/use-case/README)
     * [基于fofa漏洞挖掘](user/use-case/fofa)
     * [基于漏扫代理挖掘漏洞](user/use-case/proxy-scan)
-    * [探测子域名](user/subdomain)
+    * [探测子域名](user/use-case/subdomain)
   * [定时任务](user/cron-job/README)
 * 开发者文档
   * [架构](developer/架构)
@@ -28,7 +28,7 @@
     * [从零安装kubernetes和asm实例](ops/k8s)
     * [minikube环境安装asm实例](ops/minikube)
   * [卸载](ops/uninstall)
-  * [水平扩容](ops/scale.md)
+  * [水平扩展](ops/scale.md)
   * [elastcsearch](ops/elasticsearch)
   * [faq](ops/faq)
 * [赞助本项目](donate)

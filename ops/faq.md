@@ -57,4 +57,4 @@ elastcsearch、kibana、zoomkeeper 的 resource request值比较大。调小之�
   }
   ```
 
-  然后 `service docker restart` 容器镜像服务
+  然后 `service docker restart` 重启容器镜像服务
