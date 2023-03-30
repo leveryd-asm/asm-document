@@ -2,4 +2,4 @@
 
 安装kubesphere时，你需要避免 [这个issue](https://github.com/leveryd-asm/asm/issues/38) 出现的问题。
 
-<video src="/ops/../video/百度云安装asm.mp4" controls="" width="80%" >Not Support</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pRHMm-Fco90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
