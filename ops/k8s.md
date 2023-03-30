@@ -43,6 +43,8 @@ cd asm/
 
 第一次安装时，需要执行`helm dependency update`下载依赖。
 
+> helm命令你可以在 [releases](https://github.com/helm/helm/releases) 页面下载
+
 执行如下命令会创建asm命名空间，并在asm命名空间中安装本项目
 ```
 kubectl create namespace asm

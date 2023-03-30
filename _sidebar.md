@@ -26,7 +26,8 @@
 * 运维文档
   * 安装
     * [从零安装kubernetes和asm实例](ops/k8s)
-    * [minikube环境安装asm实例](ops/minikube)
+    * [云容器服务中安装asm实例](ops/cce)
+    * [minikube中安装asm实例](ops/minikube)
   * [卸载](ops/uninstall)
   * [水平扩展](ops/scale.md)
   * [elastcsearch](ops/elasticsearch)
