@@ -17,6 +17,8 @@ org:apple                     apple组织
 port:>=8000 AND port:<=9000   port在8000-9000之间，注意AND不能小写，也不能写成&&
 first_create_time:[2023-03-23 TO 2023-03-25]          23号到25号创建
 last_update_time:[2023-03-23 TO 2023-03-25]           23号到25号有过更新
+first_create_time:[now-1d TO now]                     一天内新创建
+first_create_time:[now-48h TO now]                     48小时内新创建
 status-code:200 AND content-type:"html" AND words:>10 提供web服务的网站
 ```
 
