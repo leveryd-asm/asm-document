@@ -58,3 +58,16 @@ elastcsearch、kibana、zoomkeeper 的 resource request值比较大。调小之�
   ```
 
   然后 `service docker restart` 重启容器镜像服务
+
+# 手动拉取镜像
+
+```
+docker pull projectdiscovery/tlsx:v1.0.4
+docker pull projectdiscovery/httpx:v1.2.7
+docker pull projectdiscovery/subfinder:v2.5.5
+docker pull projectdiscovery/naabu:v2.1.1
+docker pull projectdiscovery/nuclei:v2.8.3
+docker pull logstash:7.17.3
+docker pull imega/jq:1.6
+docker pull leveryd/ubuntu:base
+```

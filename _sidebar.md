@@ -11,6 +11,7 @@
   * [用户场景](user/use-case/README)
     * [基于fofa漏洞挖掘](user/use-case/fofa)
     * [基于漏扫代理挖掘漏洞](user/use-case/proxy-scan)
+    * [探测同组织的关联域名](user/use-case/related_domain)
     * [探测子域名](user/use-case/subdomain)
   * [定时任务](user/cron-job/README)
 * 开发者文档
