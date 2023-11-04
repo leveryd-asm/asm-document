@@ -14,7 +14,8 @@
   推荐你用[适用于国内网络环境的kubekey项目](https://github.com/kubesphere/kubekey/)安装kubernetes
 
   ```
-  ./kk create cluster --with-kubernetes v1.24.1
+  export KKZONE=cn
+  ./kk create cluster --with-kubernetes v1.24.1 --container-manager containerd
   ```
 
 * 安装kubesphere(可选)
