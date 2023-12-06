@@ -18,11 +18,11 @@
   ./kk create cluster --with-kubernetes v1.24.1 --container-manager containerd
   ```
 
-* 安装kubesphere(虽然是可选步骤，但是如果k8s新手建议安装)
+* 安装kubesphere(虽然是可选步骤，但是k8s新手建议安装)
 
   kubesphere 可以用来管理k8s集群，并且提供了`ingress controller`。
 
-  你可以按照如下命令安装`v3.3.1`版本。安装前，你需要有默认StorageClass，为什么以及怎么创建默认StorageClass可以见[这个issue](https://github.com/leveryd-asm/asm/issues/38)
+  你可以按照如下命令安装`v3.3.1`版本。***安装前，你需要有默认StorageClass***，为什么以及怎么创建默认StorageClass可以见[这个issue](https://github.com/leveryd-asm/asm/issues/38)
   ```
   kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.1/kubesphere-installer.yaml
   kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.1/cluster-configuration.yaml
