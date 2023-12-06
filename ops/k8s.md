@@ -18,7 +18,7 @@
   ./kk create cluster --with-kubernetes v1.24.1 --container-manager containerd
   ```
 
-* 安装kubesphere(可选)
+* 安装kubesphere(虽然是可选步骤，但是如果k8s新手建议安装)
 
   kubesphere 可以用来管理k8s集群，并且提供了`ingress controller`。
 
