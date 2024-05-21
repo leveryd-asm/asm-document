@@ -70,7 +70,12 @@ asm实例安装完成后，你就可以通过浏览器进入到asm控制台上�
 
 * 创建网关(ingress)
 
-  如果你安装了kubesphere，就可以在kubesphere控制台上创建一个网关
+  如果你安装了kubesphere，就可以在kubesphere控制台上创建一个网关。
+
+  KubeSphere 安装时会自动创建默认用户( admin/P@88w0rd )。
+  
+  ![](https://github.com/leveryd-asm/asm-document/assets/1846319/c6b8f696-a5f9-4515-84dd-b6a8fc437dee)
+
 
   ![](https://user-images.githubusercontent.com/1846319/226091298-d13f5e7e-6d61-4648-bcb3-fdec2da96e92.png)
 
