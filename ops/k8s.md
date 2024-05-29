@@ -9,28 +9,14 @@
 
   4 核 CPU，8 GB 内存，80 GB 磁盘空间
 
-* 安装kubernetes
+* 安装带kubesphere的kubernetes
 
   推荐你用[适用于国内网络环境的kubekey项目](https://github.com/kubesphere/kubekey/)安装kubernetes
 
   ```
   export KKZONE=cn
-  ./kk create cluster --with-kubernetes v1.24.1 --container-manager containerd
+  ./kk create cluster --with-kubesphere v3.2.1 --container-manager containerd
   ```
-
-* 安装kubesphere(虽然是可选步骤，但是k8s新手建议安装)
-
-  kubesphere 可以用来管理k8s集群，并且提供了`ingress controller`。
-
-  你可以按照如下命令安装`v3.3.1`版本。***安装前，你需要有默认StorageClass***，为什么以及怎么创建默认StorageClass可以见[这个issue](https://github.com/leveryd-asm/asm/issues/38)
-  ```
-  kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.1/kubesphere-installer.yaml
-  kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.1/cluster-configuration.yaml
-  ```
-
-  > 详细安装步骤参考 [kubesphere](https://kubesphere.io/zh/docs/v3.3/quick-start/minimal-kubesphere-on-k8s/)，你也可以用[适用于国内网络环境的kubekey项目](https://github.com/kubesphere/kubekey/)快速安装kubernetes和kubesphere。
-
-  如果你不需要kubesphere，可以使用`ingress-nginx`作为`ingress controller`。
 
 # 步骤2：下载项目代码到本地
 
